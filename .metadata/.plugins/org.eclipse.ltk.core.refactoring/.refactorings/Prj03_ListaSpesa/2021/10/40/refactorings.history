@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;Prj03_ListaSpesa&apos;&#x0D;&#x0A;- Original project: &apos;Prj03_ListaSpesa&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Prj03_ListaSpesa/src/controller&#x0D;&#x0A;     controller.NoteCtrl.java&#x0D;&#x0A;     Prj03_ListaSpesa/src/model&#x0D;&#x0A;     model.Nota.java&#x0D;&#x0A;     Prj03_ListaSpesa/src/vista" description="Delete elements" element1="/src&lt;vista" element2="/src&lt;model" element3="/src&lt;controller" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1633612645747" subPackages="false" version="1.0"/>
+</session>

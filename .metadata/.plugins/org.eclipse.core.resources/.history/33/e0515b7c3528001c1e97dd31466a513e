@@ -1,0 +1,36 @@
+package view;
+
+import java.util.Scanner;
+
+import controller.Contatti;
+import model.Contatto;
+
+public class Rubrica {
+	
+	public static void main (String[] args) {
+		
+		Contatti rubrica = new Contatti();
+		Scanner sc = new Scanner(System.in);
+		
+		aggiungiUtente(rubrica, sc, 0);
+		aggiungiUtente(rubrica, sc, 1);
+		aggiungiUtente(rubrica, sc, 2);
+		aggiungiUtente(rubrica, sc, 3);
+		aggiungiUtente(rubrica, sc, 4);
+		
+		rubrica.stampaTutto();
+		rubrica.stampaUno(0);		
+		
+		}
+	private static void aggiungiUtente (Contatti rubrica, Scanner sc, int pos) {
+		
+		System.out.println("Dimmi il nome del conttato");
+		String nome = sc.nextLine();
+
+		System.out.println("Dimmi il numero del contatto");
+		String numero = sc.nextLine();
+
+		rubrica.addContatto(nome, numero, pos);
+	}
+
+}

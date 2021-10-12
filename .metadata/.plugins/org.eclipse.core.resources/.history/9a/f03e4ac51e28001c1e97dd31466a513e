@@ -1,0 +1,22 @@
+package controller;
+
+import model.ToDo;
+
+public class ToDoCtrl {
+	
+	ToDo[] todos;
+	
+	public ToDoCtrl() {
+		todos = new ToDo[10];
+		System.out.println("Controller costruito");
+		}
+	
+	public void addToDo() {//non è un costruttore
+		todos[0] = new ToDo("non so cosa dire");
+		System.out.println("Ho creato e aggiunto il todo");
+	}
+	
+	public String showToDo(int pos) {
+		return todos[pos].toString();
+	}
+}

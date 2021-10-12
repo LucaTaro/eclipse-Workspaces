@@ -1,0 +1,25 @@
+package view;
+
+import model.ContoCorrente;
+
+public class Gestione {
+
+	public static void main(String[] args) {
+
+		ContoCorrente conto1 = new ContoCorrente("Fabrizio", 1);
+		ContoCorrente conto2 = new ContoCorrente("Riccardo", 2);
+
+		conto1.versamento(1000);
+		System.out.println(conto1.dammiSaldo());
+		conto1.prelievo(100);
+		System.out.println(conto1.dammiSaldo());
+		
+		conto2.versamento(500);
+		System.out.println(conto2.dammiSaldo());
+		conto2.prelievo(100);
+		System.out.println(conto2.dammiSaldo());
+		
+		
+	}
+
+}

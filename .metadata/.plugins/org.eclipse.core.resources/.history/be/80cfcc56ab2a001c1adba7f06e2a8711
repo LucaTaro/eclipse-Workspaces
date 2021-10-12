@@ -1,0 +1,13 @@
+package arraycrescenti;
+
+import java.util.Scanner;
+
+public class Massimo {
+	
+	Scanner sc = new Scanner(System.in);
+	int i = 0;
+	
+	System.out.println("Quanti numeri vuoi generare randomicamente?");
+	
+
+}

@@ -1,0 +1,25 @@
+package model;
+
+import controller.Contatti;
+
+public class Contatto {
+	
+	public String nome;
+	public String numero;
+	
+	public Contatto (String name, String num) {
+		
+		nome = nome;
+		telefono = num;
+	}
+	
+	public String stampa() {
+		
+		String contatto = null;
+		
+		contatto = nome + " - " + numero;
+		
+		return contatto;		
+	}
+
+}

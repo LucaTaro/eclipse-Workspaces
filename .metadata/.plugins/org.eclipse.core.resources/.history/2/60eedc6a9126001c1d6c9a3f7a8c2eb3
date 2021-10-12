@@ -1,0 +1,23 @@
+package model;
+
+public class Nota {
+	
+	public boolean completata = false;
+	public String descrizione; //String è un reference type
+	
+	public void completa () { //void poichè non ritorna niente visivamente
+		completata = true;
+	}
+	
+	public String stampa() { //dato che non è void DEVE ritornare qualcosa dello stesso tipo dichiarato
+		String nota = "";
+		if (completata==true) {
+			nota = nota + "[*] "
+		} else {
+			nota = nota + "[ ] ";
+		}
+		
+		return nota + descrizione;
+	}
+
+}

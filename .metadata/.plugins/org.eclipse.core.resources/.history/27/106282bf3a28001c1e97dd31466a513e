@@ -1,0 +1,59 @@
+package view;
+
+import java.util.Scanner;
+
+import controller.Contatti;
+import model.Contatto;
+
+public class Rubrica {
+	
+	public static void main (String[] args) {
+		
+		Contatti rubrica = new Contatti(10);
+		Scanner sc = new Scanner(System.in);
+		
+		boolean b = true;
+		char scelta;
+		
+		while (b) {
+			scelta = askUser();
+			
+			if (scelta == 'q') {
+				b = false;
+				System.out.println("Arrivederci");
+			} else { if (scelta == 'a') {
+				String cognome = testoNome();
+				String cell = testoNumero();
+				int posizione = posContatto();
+				rubrica.addContatto(cognome, cell, posizione);
+			} if (scelta == 'b') {
+				rubrica.stampaTutto();
+			} if (scelta =='c') {
+				int posizione = posContatto();
+			}
+				}
+		}
+		
+	}
+
+	private static char askUser() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private static String testoNumero() {
+		
+		return null;
+	}
+
+	private static int posContatto() {
+		
+		return 0;
+	}
+
+	private static String testoNome() {
+		
+		return null;
+	}
+
+}

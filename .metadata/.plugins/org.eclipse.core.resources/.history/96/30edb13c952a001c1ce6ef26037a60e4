@@ -1,0 +1,42 @@
+package view;
+
+import model.Cliente;
+import model.ContoCorrente;
+
+public class Gestione {
+
+	public static void main(String[] args) {
+
+		/*ContoCorrente conto1 = new ContoCorrente("Fabrizio");
+		ContoCorrente conto2 = new ContoCorrente("Riccardo");
+
+		conto1.versamento(1000);
+		System.out.println(conto1.dammiSaldo());
+		conto1.prelievo(100);
+		System.out.println(conto1.dammiSaldo());
+		System.out.println(conto1.dammiNumero());
+		
+		conto2.versamento(500);
+		System.out.println(conto2.dammiSaldo());
+		conto2.prelievo(1000);
+		System.out.println(conto2.dammiSaldo());
+		System.out.println(conto2.dammiNumero());*/
+		
+		ContoCorrente[] conti = new ContoCorrente[5];
+		
+		conti[0] = new ContoCorrente(new Cliente("Pippo", "Baudo"));
+		conti[1] = new ContoCorrente(new Cliente("Pippo", "Scemotto"));
+		
+		conti[0].versamento(500);
+		System.out.println(conti[0].dammiSaldo());
+		System.out.println(conti[0].dammiNumero());
+		
+		conti[1].versamento(500);
+		System.out.println(conti[1].dammiSaldo());
+		conti[2].prelievo(1000);
+		System.out.println(conti[1].dammiSaldo());
+		System.out.println(conti[1].dammiNumero());
+		
+	}
+
+}

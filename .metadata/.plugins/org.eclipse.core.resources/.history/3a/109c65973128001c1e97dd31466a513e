@@ -1,0 +1,23 @@
+package model;
+
+import controller.Contatti;
+
+public class Contatto {
+	
+	Contatti[] schedario;
+	
+	public void Contatti (int numContatti) {
+		
+		schedario = new Contatti[numContatti];
+		
+	}
+	
+	public void addContatto(String nome, String numero, int pos) {
+		Contatti n = new Contatti[pos];
+		schedario[pos] = n;
+		System.out.println("Aggiungi un contatto");		
+	}
+	
+	
+
+}

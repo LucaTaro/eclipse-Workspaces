@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="model.Nota"/>
+    <fullyQualifiedTypeName name="controller.Contatti"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="model.ToDo"/>
+    <fullyQualifiedTypeName name="controller.ToDoCtrl"/>
+    <fullyQualifiedTypeName name="model.Contatto"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

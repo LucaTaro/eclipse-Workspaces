@@ -1,0 +1,34 @@
+package model;
+
+public class ContoCorrente {
+	
+	private static int numeratoreConti = 1;
+	private double saldo; //poichè non deve essere accessibile da tutti
+	private int numeroConto;
+	private String nomeCliente;
+	
+	public ContoCorrente(String nome) {
+		saldo = 0.0;
+		numeroConto = numeratoreConti++;
+		nomeCliente = nome;
+	}
+	
+	public void versamento (double euro) {
+		saldo += euro;
+		
+	}
+	
+	public void prelievo (double euro) {
+		if (saldo > euro) 
+			saldo -= euro;
+		
+	}
+	
+	public double dammiSaldo () {
+		return saldo;
+	}
+	
+	public int dammiNumero() {
+		return numeroConto;
+	}
+}

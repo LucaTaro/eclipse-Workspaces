@@ -1,0 +1,17 @@
+package view;
+
+import java.util.Scanner;
+
+import controller.Contatti;
+import model.Contatto;
+
+public class Rubrica {
+	
+	public static void main (String[] args) {
+		
+		Contatti rubrica = new Contatti();
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

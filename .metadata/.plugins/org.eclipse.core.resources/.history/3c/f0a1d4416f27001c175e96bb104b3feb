@@ -1,0 +1,34 @@
+package vista;
+
+import java.util.Scanner;
+import model.Nota;
+
+public class Lista2 {
+
+	public static void main(String[] args) {
+		
+		Nota[] lista = new Nota[10];
+		
+		/*Nota prima = new Nota();
+		prima.descrizione = "pane";
+		prima.completa();
+		System.out.println(prima.stampa());*/
+		lista[0] = new Nota("pane");
+		//lista[0].descrizione = "pane";
+		lista[0].completa();
+		
+		lista[1] = new Nota("latte");
+		lista[1].completa();
+		
+		/*Nota seconda = new Nota();
+		seconda.descrizione = "latte";
+		System.out.println(seconda.stampa());*/
+		
+		for (int i = 0; i < lista.length; i++) {
+			if (lista[i] != null) {
+				System.out.println(lista[i].stampa());
+			}
+		}
+	}
+
+}
