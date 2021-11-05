@@ -1,0 +1,14 @@
+#menu ul {
+	list-style-type: none;
+}
+li {
+	float: left; 
+	margin-right:5px;
+}
+#menu {
+	height:30px;
+	width: 100%;
+	display:block;
+	clear:left;
+	border: 1px solid black;
+}
