@@ -62,7 +62,7 @@ public class LibroDAO {
 		this.conn = database.connetti();
 		try {
 			this.stat = this.conn.createStatement();
-			this.rs= stat.executeUpdate("insert into libro(titolo, prezzo) "
+			stat.executeUpdate("insert into libro(titolo, prezzo) "
 					+ "values(" + "'" + l.getTitolo() + "', " + l.getPrezzo() + ")");
 			System.out.println("Libro aggiunto");
 		} catch (SQLException e) {
