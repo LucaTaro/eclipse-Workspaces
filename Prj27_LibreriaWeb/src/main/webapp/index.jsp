@@ -19,8 +19,9 @@
 	for (Libro l : ld.getLibri()) {
 		%>
 			<tr>
-				<td><%=l.getTitolo() %></td>				
-				<td><%=l.getPrezzo() %></td>								
+				<td><a href="dettaglio.jsp?libroCercato=<%= l.getId() %>">
+					<%= l.getTitolo() %>
+				</a></td>					
 			</tr>
 		<%
 	}

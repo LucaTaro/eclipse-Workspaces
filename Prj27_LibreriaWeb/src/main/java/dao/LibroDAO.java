@@ -38,4 +38,36 @@ public class LibroDAO {
 		return libri;
 	}
 	
+	public Libro getLibroById(int id) {
+		Libro l = null;
+		this.conn = database.connetti();
+		try {
+			this.stat = this.conn.createStatement();
+			this.rs= stat.executeQuery("select * from libro where id = " + id);
+			
+			this.rs.next();//mi sposto sul primo record della query
+			
+			int idLibro = rs.getInt("id");
+			String titolo = rs.getString("titolo");
+			double prezzo = rs.getDouble("prezzo");
+			
+			l = new Libro(idLibro, titolo, prezzo);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return l;
+	}
+	
+	public void addLibro(Libro l) {
+		this.conn = database.connetti();
+		try {
+			this.stat = this.conn.createStatement();
+			this.rs= stat.executeUpdate("insert into libro(titolo, prezzo) "
+					+ "values(" + "'" + l.getTitolo() + "', " + l.getPrezzo() + ")");
+			System.out.println("Libro aggiunto");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}		
+	}
+	
 }
