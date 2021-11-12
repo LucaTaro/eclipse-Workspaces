@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="controller.ToDoCtrl"/>
-    <fullyQualifiedTypeName name="model.Contatto"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="controller.StudenteCtrl"/>
-    <fullyQualifiedTypeName name="model.ToDo"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="controller.Studenti"/>
-    <fullyQualifiedTypeName name="model.SerieTv"/>
-    <fullyQualifiedTypeName name="controller.Serie"/>
     <fullyQualifiedTypeName name="model.Pizza"/>
     <fullyQualifiedTypeName name="controller.GestionalePizza"/>
     <fullyQualifiedTypeName name="controller.GestioneArticolo"/>
@@ -47,17 +36,28 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="database.DB"/>
-    <fullyQualifiedTypeName name="connessione.Db"/>
     <fullyQualifiedTypeName name="dao.LibroDAO"/>
     <fullyQualifiedTypeName name="model.Libro"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.SQLSyntaxErrorException"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="database.StudenteDAO"/>
+    <fullyQualifiedTypeName name="database.StudenteDAOImpl"/>
+    <fullyQualifiedTypeName name="model.Studente"/>
+    <fullyQualifiedTypeName name="connessione.Db"/>
+    <fullyQualifiedTypeName name="model.Autore"/>
+    <fullyQualifiedTypeName name="dao.AutoreDAOImpl"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="database.StudenteDAOImpl"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="model.Babbo"/>
+    <fullyQualifiedTypeName name="dao.BabboDAO"/>
+    <fullyQualifiedTypeName name="dao.BabboDAOImpl"/>
+    <fullyQualifiedTypeName name="dao.DonoDAOImpl"/>
+    <fullyQualifiedTypeName name="model.Dono"/>
+    <fullyQualifiedTypeName name="database.Db"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="model.DonoRicevente"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="model.Studente"/>
 </qualifiedTypeNameHistroy>

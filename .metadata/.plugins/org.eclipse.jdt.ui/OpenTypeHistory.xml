@@ -2,4 +2,9 @@
 <typeInfoHistroy>
     <typeInfo handle="=Prj18_GestioneDipendenti/src&lt;model{Dipendente.java[Dipendente" modifiers="1" timestamp="1634899489975"/>
     <typeInfo handle="=Prj23_JunkFood/src\/main\/java&lt;model{Prodotto.java[Prodotto" modifiers="1" timestamp="1635414140994"/>
+    <typeInfo handle="=Prj27_LibreriaWeb/src\/main\/java&lt;dao{AutoreDAO.java[AutoreDAO" modifiers="513" timestamp="1636621641003"/>
+    <typeInfo handle="=Prj29_BabbiMod/src\/main\/java&lt;dao{BabboDAO.java[BabboDAO" modifiers="513" timestamp="1636626754607"/>
+    <typeInfo handle="=Prj29_BabbiMod/src\/main\/java&lt;dao{ConsegnaDAO.java[ConsegnaDAO" modifiers="513" timestamp="1636667128200"/>
+    <typeInfo handle="=Prj29_BabbiMod/src\/main\/java&lt;dao{DonoDAO.java[DonoDAO" modifiers="513" timestamp="1636667319910"/>
+    <typeInfo handle="=Prj24_BabboNatale/src\/main\/java&lt;model{User.java[User" modifiers="1025" timestamp="1636715644684"/>
 </typeInfoHistroy>

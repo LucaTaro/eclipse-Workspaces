@@ -4,22 +4,24 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import database.Db;
+import database.DB;
 
 public class IntDB {
-	static Db db = new Db();
+	static DB db = new DB();
 	static Connection connessione;
 	static Statement stat;
 	
 	public static void creaTabellaBabbi() {
 		
-		String query = "create table if not exists babbi ("
+		String query = "create table if not exists babbo ("
 				+ "id int auto_increment,"
-				+ "nome varchar(10),"
+				+ "nome varchar(20),"
+				+ "password varchar(10),"
+				+ "password varchar(10),"
 				+ "password varchar(10),"
 				+ "primary key(id) )";
 		
-		connessione = db.connetti();
+		connessione = db.getConnection();
 		try {
 			stat = connessione.createStatement();
 			stat.execute(query);
@@ -35,7 +37,7 @@ public class IntDB {
 				+ "descrizione varchar(20),"
 				+ "primary key(id) )";
 		
-		connessione = db.connetti();
+		connessione = db.getConnection();
 		try {
 			stat = connessione.createStatement();
 			stat.execute(query);
@@ -53,7 +55,7 @@ public class IntDB {
 				+ "bambino varchar(20),"
 				+ "primary key(id) )";
 		
-		connessione = db.connetti();
+		connessione = db.getConnection();
 		try {
 			stat = connessione.createStatement();
 			stat.execute(query);
