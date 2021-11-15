@@ -1,11 +1,11 @@
 package model;
 
-public abstract class User {
+public class User {
 	
-	protected String nome;
-	protected String cognome;
-	protected String username;
-	protected String password;
+	private String nome;
+	private String cognome;
+	private String username;
+	private String password;
 	
 	public String getNome() {
 		return nome;

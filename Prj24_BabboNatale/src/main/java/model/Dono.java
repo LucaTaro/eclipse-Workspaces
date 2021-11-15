@@ -2,6 +2,7 @@ package model;
 
 public class Dono {
 	
+	private int id;
 	private String descrizione;
 	private int disponibilita;
 	
@@ -16,6 +17,12 @@ public class Dono {
 	}
 	public void setDisponibilita(int disponibilita) {
 		this.disponibilita = disponibilita;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }

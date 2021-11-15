@@ -18,6 +18,4 @@ public class Ricevente {
 		this.nome = nome;
 	}
 	
-	
-
 }
