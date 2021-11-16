@@ -17,5 +17,4 @@ public class Ricevente {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
 }

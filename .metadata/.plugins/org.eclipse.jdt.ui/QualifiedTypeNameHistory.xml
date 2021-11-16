@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="database.DB"/>
     <fullyQualifiedTypeName name="dao.LibroDAO"/>
     <fullyQualifiedTypeName name="model.Libro"/>
     <fullyQualifiedTypeName name="java.sql.SQLSyntaxErrorException"/>
@@ -47,17 +46,18 @@
     <fullyQualifiedTypeName name="model.Autore"/>
     <fullyQualifiedTypeName name="dao.AutoreDAOImpl"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="model.Babbo"/>
-    <fullyQualifiedTypeName name="dao.BabboDAO"/>
-    <fullyQualifiedTypeName name="dao.BabboDAOImpl"/>
     <fullyQualifiedTypeName name="dao.DonoDAOImpl"/>
-    <fullyQualifiedTypeName name="model.Dono"/>
     <fullyQualifiedTypeName name="database.Db"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="model.DonoRicevente"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="database.DB"/>
+    <fullyQualifiedTypeName name="model.Babbo"/>
+    <fullyQualifiedTypeName name="model.Dono"/>
+    <fullyQualifiedTypeName name="dao.BabboDAO"/>
+    <fullyQualifiedTypeName name="dao.BabboDAOImpl"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
