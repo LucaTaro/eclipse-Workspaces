@@ -6,6 +6,8 @@ public class Babbo extends User {
 	private String mezzo;
 	private String zona;
 	private String nomeDaBabbo;
+	private String username;
+	private String password;
 	
 	public int getId() {
 		return id;

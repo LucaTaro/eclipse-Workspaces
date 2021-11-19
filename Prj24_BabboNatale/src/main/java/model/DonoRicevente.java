@@ -1,21 +1,41 @@
 package model;
 
+import java.util.ArrayList;
+
+import dao.DonoDAOImpl;
+import dao.RiceventeDAOImpl;
+
 public class DonoRicevente {
 	
-	private Dono dono;
-	private Ricevente ricevente;
+	public DonoRicevente(int idDono, int idRicevente) {
+		int[][] donoRicevente = new int[0][1];
+		donoRicevente[0][0] = idDono;
+		donoRicevente[0][1] = idRicevente;
+	}
 	
-	public Dono getDono() {
-		return dono;
+	/*private ArrayList<Dono> doni = new ArrayList<Dono>();
+	private ArrayList<Ricevente> riceventi = new ArrayList<Ricevente>();
+	
+	private RiceventeDAOImpl rdao = new RiceventeDAOImpl();
+	private DonoDAOImpl donodao = new DonoDAOImpl();
+	
+	public ArrayList<Dono> popolaDoni() {
+		for(Dono d : donodao.getDoni()) {
+			doni.add(d);
+		}
+		return doni;
 	}
-	public void setDono(Dono dono) {
-		this.dono = dono;
-	}
-	public Ricevente getRicevente() {
-		return ricevente;
-	}
-	public void setRicevente(Ricevente ricevente) {
-		this.ricevente = ricevente;
-	}
-
+	
+	public ArrayList<Dono> popolaRiceventi() {
+		for(Ricevente r : rdao.getRiceventi()) {
+			riceventi.add(r);
+		}
+		return doni;
+	}*/
+	
+	/*public String accoppiaDR(int idDono, int idRicevente) {
+		String donoRicevente = idDono + ", " + idRicevente;
+		return donoRicevente;
+	}*/
+		
 }

@@ -68,7 +68,7 @@ public static void creaTabellaCredenziali() {
 		String query = "create table if not exists credenziali("
 				+ "    username varchar(30) primary key,"
 				+ "    password varchar(20),"
-				+ "    super enum('S', 'N')";
+				+ "    super enum('S', 'N') )";
 		
 		connessione = db.getConnection();
 		try {
