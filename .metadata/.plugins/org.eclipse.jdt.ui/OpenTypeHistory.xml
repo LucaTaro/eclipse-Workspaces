@@ -9,4 +9,6 @@
     <typeInfo handle="=Prj24_BabboNatale/src\/main\/java&lt;dao{BabboDAO.java[BabboDAO" modifiers="513" timestamp="1636977665135"/>
     <typeInfo handle="=Prj24_BabboNatale/src\/main\/java&lt;dao{DonoDAO.java[DonoDAO" modifiers="513" timestamp="1636985945430"/>
     <typeInfo handle="=Prj24_BabboNatale/src\/main\/java&lt;dao{RiceventeDAO.java[RiceventeDAO" modifiers="513" timestamp="1637231081859"/>
+    <typeInfo handle="=Prj30_spring-automobili/C:\/Users\/Taro\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.6.0\/spring-data-jpa-2.6.0.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.6.0=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1637578718022"/>
+    <typeInfo handle="=Prj30_spring-automobili/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zavattaro.automobili.service{AutoService.java[AutoService" modifiers="513" timestamp="1637924994059"/>
 </typeInfoHistroy>
