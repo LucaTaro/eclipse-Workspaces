@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sti prodotti demme</title>
+</head>
+<body>
+    <ul id="elenco"></ul>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        const URL = "http://localhost:9003/alimenti/api";
+        /*$.getJSON( "http://localhost:9003/alimenti/api", function( data ) {
+        var items = [];
+        $.each( data, function(key, alimento) {
+            items.push("<li id='" + key + "'>" + alimento.prodotto + "</li>");
+        });
+ 
+        $( "<ul/>", {
+            "class": "my-new-list",
+            html: items.join("")
+            }).appendTo("body");
+        });*/
+
+        const XHR = new XMLHttpRequest();
+
+        XHR.onreadystatechange = function() {
+            console.log(XHR.readyState);
+            if(XHR.readyState === 4 && XHR.status === 200) {
+                var bob = JSON.parse(XHR.responseText)
+                for (const alimento of bob) {
+                    document.getElementById("elenco").innerHTML += "<li>" + alimento.prodotto + "</li>";
+                }
+            }
+        }
+
+        XHR.open("GET", URL);
+        XHR.send();
+
+    </script>
+</body>
+</html>
