@@ -10,7 +10,6 @@ INDEX VERSION 1.131+C:\Users\Taro\Documents\eclipse-Workspaces\.metadata\.plugin
 2245630515.index
 2503853426.index
 2685498896.index
-2074558044.index
 1929626445.index
 2176509477.index
 2948466350.index

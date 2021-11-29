@@ -23,7 +23,7 @@
             }).appendTo("body");
         });*/
 
-        const XHR = new XMLHttpRequest();
+        /*const XHR = new XMLHttpRequest();
 
         XHR.onreadystatechange = function() {
             console.log(XHR.readyState);
@@ -36,7 +36,16 @@
         }
 
         XHR.open("GET", URL);
-        XHR.send();
+        XHR.send();*/
+
+        fetch(URL).then(r => r.json()).then(alimenti => {
+            for (const alimento of alimenti) {
+                const li = document.createElement("li");
+                const testo = document.createTextNode(alimento.prodotto);
+                li.appendChild(testo);
+                document.getElementById("elenco").appendChild(li);
+            }
+        });
 
     </script>
 </body>
