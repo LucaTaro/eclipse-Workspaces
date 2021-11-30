@@ -8,4 +8,7 @@
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/maboglia/jato45/tree/main/Prj03_ListaSpesa/src/controller"/>
 	</list>
+	<section name="GitCommitSearchPage">
+		<item key="HISTORY_SIZE" value="0"/>
+	</section>
 </section>
