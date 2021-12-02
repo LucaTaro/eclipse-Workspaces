@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id="regioni"></div>
+
+        <div id="dettaglio"></div>
+    </div>
+
+    <script>
+
+        const URL_Regioni = "localhost:9005/popolazionee/api/elenco";
+        const URL_Regione = "localhost:9005/popolazionee/api";
+        
+        const elencoRegioni = document.getElementById("regioni");
+        const schedaRegione = document.getElementById("dettaglio");
+
+        fetch(URL_Regioni).then(json => json.json()).then(elenco => {
+            elencoRegioni.appendChild(document.createElement("ul"));
+            elencoRegioni.innerHTML = "";
+            for (const provincia of elenco) {
+                elencoRegioni.innerHTML += "<li>" + provincia + "</li>";
+            }
+        });
+
+
+    </script>
+
+</body>
+</html>
