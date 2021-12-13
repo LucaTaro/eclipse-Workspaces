@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-    <fullyQualifiedTypeName name="com.zavattaro.alimenti.interfaccia.Misurabile"/>
-    <fullyQualifiedTypeName name="com.zavattaro.alimenti.interfaccia.Numerabile"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="com.zavattaro.alimenti.interfaccia.Patata"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.model.convert.internal.AutoApplicableConverterDescriptorBypassedImpl"/>
-    <fullyQualifiedTypeName name="com.zavattaro.automobili.repos.AutomobileDAO"/>
-    <fullyQualifiedTypeName name="com.zavattaro.automobili.service.AutoService"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
     <fullyQualifiedTypeName name="com.zavattaro.automobili.entities.Automobile"/>
     <fullyQualifiedTypeName name="com.zavattaro.alimenti.repos.AlimentoDAO"/>
     <fullyQualifiedTypeName name="com.zavattaro.alimenti.service.AlimentoService"/>
@@ -60,4 +49,15 @@
     <fullyQualifiedTypeName name="enumerazioni.Taglie"/>
     <fullyQualifiedTypeName name="enumerazioni.CapoAbbigliamento"/>
     <fullyQualifiedTypeName name="singolaistanza.SingolaIstanza"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+    <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
+    <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
+    <fullyQualifiedTypeName name="java.awt.TextField"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+    <fullyQualifiedTypeName name="model.Cambiatore"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.OutputDeviceAssigned"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
 </qualifiedTypeNameHistroy>
