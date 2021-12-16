@@ -6,6 +6,7 @@
 		<item value="bitbucket.org"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/maboglia/jato45/blob/main/spring-canzoni/src/main/resources/templates/cantanti.html"/>
 		<item value="https://github.com/maboglia/jato45/tree/main/Prj03_ListaSpesa/src/controller"/>
 	</list>
 	<section name="GitCommitSearchPage">
