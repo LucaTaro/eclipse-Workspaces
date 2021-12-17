@@ -18,4 +18,7 @@
     <typeInfo handle="=Prj34_spring_ricette/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zavattaro.ricette.dal{RicettaDAO.java[RicettaDAO" modifiers="513" timestamp="1638789794591"/>
     <typeInfo handle="=Prj34_spring_ricette/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zavattaro.ricette.sl{RicetteService.java[RicetteService" modifiers="513" timestamp="1638790387288"/>
     <typeInfo handle="=Prj30_spring-automobili/C:\/Users\/Taro\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.6.0\/spring-data-jpa-2.6.0.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.6.0=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1637578718022"/>
+    <typeInfo handle="=Prj38_spring_school/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zavattaro.school.services{StudenteService.java[StudenteService" modifiers="513" timestamp="1639732844164"/>
+    <typeInfo handle="=Prj38_spring_school/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zavattaro.school.dal{CorsoDAO.java[CorsoDAO" modifiers="513" timestamp="1639731714124"/>
+    <typeInfo handle="=Prj38_spring_school/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zavattaro.school.services{CorsoService.java[CorsoService" modifiers="513" timestamp="1639732908366"/>
 </typeInfoHistroy>
