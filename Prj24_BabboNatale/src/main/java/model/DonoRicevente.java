@@ -1,10 +1,5 @@
 package model;
 
-import java.util.ArrayList;
-
-import dao.DonoDAOImpl;
-import dao.RiceventeDAOImpl;
-
 public class DonoRicevente {
 	
 	public DonoRicevente(int idDono, int idRicevente) {

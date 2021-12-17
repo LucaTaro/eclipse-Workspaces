@@ -3,7 +3,6 @@ package view;
 import java.util.Scanner;
 
 import controller.Note;
-import model.Nota;
 
 public class Lista {
 

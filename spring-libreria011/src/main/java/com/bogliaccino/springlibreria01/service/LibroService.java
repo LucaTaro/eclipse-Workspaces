@@ -1,6 +1,5 @@
 package com.bogliaccino.springlibreria01.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.bogliaccino.springlibreria01.model.Libro;

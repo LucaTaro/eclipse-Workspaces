@@ -3,7 +3,6 @@ package view;
 import java.util.Scanner;
 
 import controller.Contatti;
-import model.Contatto;
 
 public class Rubrica {
 	

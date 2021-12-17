@@ -1,7 +1,5 @@
 package array;
 
-import java.util.Iterator;
-
 public class DemoCaratteri {
 
 	public static void main(String[] args) {

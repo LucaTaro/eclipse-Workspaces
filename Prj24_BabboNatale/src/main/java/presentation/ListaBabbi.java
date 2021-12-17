@@ -7,9 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao.BabboDAO;
-import dao.BabboDAOImpl;
-
 /**
  * Servlet implementation class ListaBabbi
  */

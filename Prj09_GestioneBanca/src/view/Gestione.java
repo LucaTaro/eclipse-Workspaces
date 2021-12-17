@@ -2,7 +2,6 @@ package view;
 
 import controller.BancaController;
 import model.Cliente;
-import model.ContoCorrente;
 
 public class Gestione {
 

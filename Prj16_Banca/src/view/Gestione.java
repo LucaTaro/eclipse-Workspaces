@@ -1,12 +1,7 @@
 package view;
 
-import java.util.ArrayList;
-
-import controller.AnagraficaCliente;
 import controller.Filiale;
 import model.Cliente;
-import model.ContoCorrente;
-import model.Movimento;
 
 public class Gestione {
 
